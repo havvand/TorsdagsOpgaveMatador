@@ -1,0 +1,11 @@
+ID,Name,Cost,Income
+1,Du har vundet på et skrabelod modtag 1000 dKr,0,1000
+2,Du er blevet taget med 2 gram kokain betal 1000 dKr,1000,0
+3,Trafikprop vent en omgang,0,0
+4,Du er blevet taget med 2 kilo kokain tag i fængsel,0,0
+5,Din GPS er gået ud flyt 4 pladser tilbage,0,0
+6,Du køre i nødsporet (din syge stooder) passer start,0,0
+7,Dine investeringer giver afkast modtag 10000,0,10000
+8,Stikkersvin (frikort til fængsel),0,0
+9,Du har modtaget COVID 19 hjælpepakke modtag 500,0,500
+10,Du skal betale dit COVID 19 lån tilbage Betal 10000,10000,0

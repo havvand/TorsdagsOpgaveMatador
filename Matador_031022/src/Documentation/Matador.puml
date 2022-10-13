@@ -1,0 +1,52 @@
+@startuml
+'https://plantuml.com/object-diagram
+object Start
+
+object Game
+object Player
+object BankAccount
+object Die
+object Card
+
+object Piece
+object Board
+object Field
+object Chance
+object Prison
+object Parking
+object ShippingLine
+object Brewery
+
+
+object Buildings
+object Property
+object Deed
+
+Game *-- Board
+Game *-- "2..6" Player
+Game *-- Card
+Game *-- Piece
+Game *-- Die
+
+Player *-- BankAccount
+
+Board *-- "40" Field : has-a
+Board *-- "2" Die
+
+Player *-- Piece : has-a
+Player *-- Deed : has-a
+
+Field <|-- Buildings
+Field <|-- Start
+Field <|-- Prison
+Field <|-- Parking
+Field <|-- Chance
+Field <|-- Property
+
+Property <|-- Business
+Property <|-- Plot
+Deed --* Property
+Business <|-- ShippingLine
+Business <|-- Brewery
+
+@enduml
